@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/desk.svg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "woman sitting at a desk in front of a laptop";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Spanish LQA for Mobile Games",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "1+ year as a Spanish Language QA tester for mobile games, reporting functional and contextual localization issues and improving consistency across releases.",
+    url: "https://github.com/yourname/lqa-mobile-games-case-study",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Video Game Localization (Spanish)",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Localized UI strings, dialogue, and in-game text for two titles, including glossary creation, style guidelines, and cultural adaptation.",
+    url: "https://github.com/yourname/game-localization-portfolio",
   },
   {
-    title: "My Resume Site",
+    title: "Finance and Investment App Localization",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Localized financial UI and copy for Spanish-speaking users, ensuring terminology accuracy and trust-building tone in complex product flows.",
+    url: "https://github.com/yourname/finance-localization-samples",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "React i18n Learning Prototype",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "CS study project: built a simple React locale switcher that loads text from JSON and supports English/Spanish UI changes.",
+    url: "https://github.com/yourname/react-i18n-demo",
   },
 ];
 
@@ -71,9 +71,7 @@ const Portfolio = () => {
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
-              </a>
+              <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               <p className="small">{project.description}</p>
             </div>
           ))}

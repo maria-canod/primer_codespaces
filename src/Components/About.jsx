@@ -16,27 +16,27 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "yellow and black technological abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a CS student at Universitat Oberta de Catalunya (UOC) and a localization specialist focused on making technology feel natural across languages and cultures. I love turning complex concepts into clean, user-focused experiences for people and machines alike.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "C Programming",
+  "Web development",
+  "Localization",
+  "Language Quality Assurance",
+  "Software Testing",
+  "Subtitling",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "As a localization specialist and a Computer Science student, I bridge human and technical communication by turning concepts into clear, usable language. I’m committed to learning new tools and practices that make software feel local, inclusive, and intuitive for every user.";
 
 const About = () => {
   return (
